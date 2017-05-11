@@ -3,8 +3,6 @@ package divyanshu.networking;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.android.volley.RequestQueue;
-import com.android.volley.toolbox.Volley;
 
 public class MainActivity extends AppCompatActivity {
 
