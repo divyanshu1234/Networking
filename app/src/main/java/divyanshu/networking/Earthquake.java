@@ -5,21 +5,21 @@ package divyanshu.networking;
  */
 
 public class Earthquake {
-    private float magnitude;
+    private double magnitude;
     private String location;
     private long timeInMillis;
 
-    public Earthquake(float magnitude, String location, long timeInMillis){
+    public Earthquake(double magnitude, String location, long timeInMillis){
         this.magnitude = magnitude;
         this.location = location;
         this.timeInMillis = timeInMillis;
     }
 
-    public float getMagnitude() {
+    public double getMagnitude() {
         return magnitude;
     }
 
-    public void setMagnitude(float magnitude) {
+    public void setMagnitude(double magnitude) {
         this.magnitude = magnitude;
     }
 
