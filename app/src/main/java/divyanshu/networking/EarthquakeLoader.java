@@ -20,4 +20,10 @@ public class EarthquakeLoader extends AsyncTaskLoader<List<Earthquake>> {
         String requestURL = "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2016-01-01&endtime=2016-05-02&minfelt=50&minmagnitude=5";
         return NetworkHelper.fetchEarthquakeData(requestURL);
     }
+
+    @Override
+    protected void onStartLoading() {
+        forceLoad();
+    }
+
 }
