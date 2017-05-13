@@ -1,10 +1,10 @@
 # Networking
-Android networking tutorial for IIT Madras Webops Club Summer School 2017
+## Android networking tutorial for IIT Madras Webops Club Summer School 2017 ##
 
 
-Branches named from step1 to step4 contain the code for the various steps involved.
+Branches named from **step1** to **step4** contain the code for the various steps involved.
 
-The master branch contains the final code.
+The **master** branch contains the final code.
 
 You can compare any two consecutive step branches to find the code difference and hence find what is done in that step.
 
