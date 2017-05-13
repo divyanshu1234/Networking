@@ -38,7 +38,7 @@ public class NetworkHelper {
             e.printStackTrace();
         }
 
-        return extractEarthquakeData(response);
+        return null;
     }
 
 
@@ -87,12 +87,11 @@ public class NetworkHelper {
         return builder.toString();
     }
 
-    private static List<Earthquake> extractEarthquakeData(String response) {
+    public static List<Earthquake> extractEarthquakeData(JSONObject response) {
         List<Earthquake> earthquakeList = new ArrayList<>();
 
         try {
-            JSONObject jsonObject = new JSONObject(response);
-            JSONArray features = jsonObject.getJSONArray("features");
+            JSONArray features = response.getJSONArray("features");
 
             for (int i = 0; i < features.length(); ++i){
                 JSONObject data = features.getJSONObject(i);
