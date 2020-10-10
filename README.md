@@ -12,7 +12,7 @@ Instructions:
 
 **step1:**
 * Create MainActivity and change the layout
-* Creade Earthquake class to create earthquake objects to store data
+* Create Earthquake class to create earthquake objects to store data
 
 **step2:**
 * Add internet permissions to manifest.xml
